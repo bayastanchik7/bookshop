@@ -1,16 +1,16 @@
-@import './pages/Kategory/kategory.scss';  
- *{
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  box-sizing: border-box;
-}
-.container{
-  margin: 0 auto;
-  width: 90%;
-}
-a{
-  text-decoration: none;
-}
+@import './pages//Kategory/kategory.scss';
+@import './pages/password/password.scss';
 
-
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.container {
+	margin: 0 auto;
+	width: 90%;
+}
+a {
+	text-decoration: none;
+}

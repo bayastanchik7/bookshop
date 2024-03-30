@@ -1,171 +1,51 @@
 {
   "data": [
     {
-      "id": "41e1",
-      "img": "https://bookhouse.kg/media/galleryphoto/2020/12/686ecc8a-c627-4bff-a00e-e309bf147247.jpg.600x780_q94.jpg",
+      "id": "5546",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMxr53sxQaNoNmvT7v3SBf_9LW0iRMrRcNVI8rQ7NAKM0ov2E3ACl9DTH0rmu_qI_v6Jg&usqp=CAU",
       "name": "Не тупи",
-      "cat": "",
-      "price": "2100",
-      "descr": ""
-    },
-    {
-      "id": "a133",
-      "img": "https://img3.labirint.ru/rc/b4643f9ad010dee3f2bdb084188e65f8/363x561q80/books76/754571/cover.jpg?1652279102",
-      "name": "Выбор",
-      "cat": "",
-      "price": "670",
-      "descr": ""
-    },
-    {
-      "id": "5b71",
-      "img": "https://bookhouse.kg/media/galleryphoto/2022/6/7bdab3bb-edf7-4715-81f2-2432095ba5ee.jpg.360x460_q94.jpg",
-      "name": "Подсознание",
-      "cat": "",
-      "price": "1350",
-      "descr": ""
-    },
-    {
-      "id": "1a2b",
-      "img": "https://img3.labirint.ru/rc/c545ea808fdcd910068297cfd084dec7/363x561q80/books48/473545/cover.jpg?1563806385",
-      "name": "Парижеский шик",
-      "cat": "",
-      "price": "2100",
-      "descr": ""
-    },
-    {
-      "id": "cfd2",
-      "img": "https://litres.ru/pub/c/cover/50331636.jpg",
-      "name": "Просто делай ",
-      "cat": "",
-      "price": "980",
-      "descr": ""
-    },
-    {
-      "id": "28e6",
-      "img": "https://glstatic.rg.ru/uploads/images/2016/04/19/61c012a02e0e5d8.jpg",
-      "name": "Ричард фейман",
-      "cat": "",
-      "price": "540",
-      "descr": ""
-    },
-    {
-      "id": "a7bc",
-      "img": "https://i.pinimg.com/236x/29/e9/0f/29e90fbcac66748657516eb12f85832c.jpg",
-      "name": "Язык",
-      "cat": "",
-      "price": "1000",
-      "descr": ""
-    },
-    {
-      "id": "d509",
-      "img": "https://primepublish.ru/content/images/new-elements/elems/step-3-15.png",
-      "name": "Лавр",
-      "cat": "",
-      "price": "1300",
-      "descr": ""
-    },
-    {
-      "id": "8a29",
-      "img": "https://editus.ru/img/services-design/premium-design.jpeg",
-      "name": "Глазами волка",
-      "cat": "",
-      "price": "700",
-      "descr": ""
-    },
-    {
-      "id": "f2b3",
-      "img": "https://say-hi.me/wp-content/uploads/2015/12/Digital-Harry-Potter-7.jpg",
-      "name": "Гарри Потер",
-      "cat": "",
-      "price": "650",
-      "descr": ""
-    },
-    {
-      "id": "e1ca",
-      "img": "https://say-hi.me/wp-content/uploads/2015/12/Digital-Harry-Potter-3.jpg",
-      "name": "Гарри Потер",
-      "cat": "",
-      "price": "600",
-      "descr": ""
-    },
-    {
-      "id": "f168",
-      "img": "https://static.deltabook.ru/iblock/976/976a6dd2e34cc3ac241547887c7eefbe.jpg",
-      "name": "Гарри Потер",
-      "cat": "",
-      "price": "600",
-      "descr": ""
-    },
-    {
-      "id": "a55a",
-      "img": "https://marketplace.canva.com/EADzX7x5yYU/1/0/1003w/canva-%D0%BC%D1%8F%D1%82%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D1%84%D0%B5-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F-%D0%BC%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%B5%D0%B4%D0%B0-%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0-%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-4he1eqkeAQg.jpg",
-      "name": "Кухня",
-      "cat": "",
-      "price": "900",
-      "descr": ""
-    },
-    {
-      "id": "5591",
-      "img": "https://img3.labirint.ru/rc/fb38ddbf3d849e56a54b6f001c99f25e/363x561q80/books69/688139/cover.jpg?1564199262",
-      "name": "Живи",
-      "cat": "",
-      "price": "670",
-      "descr": ""
-    },
-    {
-      "id": "12d6",
-      "img": "https://marketplace.canva.com/EADx4IPoPNo/1/0/1024w/canva-%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B2-%D0%B6%D0%B0%D0%BD%D1%80%D0%B5-%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%D0%B0-%D1%81-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-%D0%BC%D0%BE%D0%BD%D0%BE%D1%85%D1%80%D0%BE%D0%BC%D0%BD%D0%BE%D0%B9-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%B8-%D0%BB%D0%B5%D1%81%D0%B0-iRBldJ_jyLw.jpg",
-      "name": "Туман в лесах",
-      "cat": "",
-      "price": "890",
-      "descr": ""
-    },
-    {
-      "id": "3b1b",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR33v3pBF6qk9l0ZWI9iimdQPkl-swg_4eKyzA57Mc1pw&s",
-      "name": "Помни его имя",
-      "cat": "",
-      "price": "250",
-      "descr": ""
-    },
-    {
-      "id": "24c6",
-      "img": "https://avatars.dzeninfra.ru/get-zen_doc/1593402/pub_5e299e9b42b03d00b0695bd5_5e29a181fe289100b035c4cf/scale_1200",
-      "name": "Жакона",
-      "cat": "",
-      "price": "400",
-      "descr": ""
-    },
-    {
-      "id": "2829",
-      "img": "https://www.moscowbooks.ru/image/book/708/orig/i708783.jpg?cu=20201216154536",
-      "name": "Мастер Маргарита",
-      "cat": "",
-      "price": "680",
-      "descr": ""
-    },
-    {
-      "id": "e4da",
-      "img": "https://simg.marwin.kz/media/catalog/product/cache/8d1771fdd19ec2393e47701ba45e606d/c/o/cover1_53_111.jpg",
-      "name": "Жюль верн",
-      "cat": "",
-      "price": "350",
-      "descr": ""
-    },
-    {
-      "id": "3e5b",
-      "img": "https://cv3.litres.ru/pub/c/cover_415/69018937.jpg",
-      "name": "Золотоя чаша",
-      "cat": "",
+      "cat": "Психология",
       "price": "800",
       "descr": ""
     },
     {
-      "id": "1e30",
-      "img": "https://glstatic.rg.ru/uploads/images/2016/04/19/a2ed2b7995ca64c.jpg",
-      "name": "Распутин",
+      "id": "0ba7",
+      "img": "https://vsedrugoeshop.ru/upload/ammina.optimizer/jpg-webp/q80/upload/iblock/94d/cover1_w600-_2_.webp",
+      "name": "Не ной",
+      "cat": "Психология",
+      "price": "800",
+      "descr": ""
+    },
+    {
+      "id": "331e",
+      "img": "https://images.thevoicemag.ru/upload/img_cache/231/231aeab78d408b3fd9092bf0c6f4b6a4_cropped_490x735.jpg",
+      "name": "Гарри Потер",
       "cat": "",
-      "price": "600",
+      "price": "1800",
+      "descr": ""
+    },
+    {
+      "id": "449e",
+      "img": "https://hpclub.ru/wp-content/uploads/2013/07/kkhp6.jpg",
+      "name": "Гарри Потер",
+      "cat": "",
+      "price": "1800",
+      "descr": ""
+    },
+    {
+      "id": "8ec4",
+      "img": "https://img.championat.com/i/x/x/16543491301026953472.jpg",
+      "name": "Гарри Потер",
+      "cat": "",
+      "price": "1800",
+      "descr": ""
+    },
+    {
+      "id": "043e",
+      "img": "https://static-cse.canva.com/blob/585523/.png",
+      "name": "Мой путь",
+      "cat": "",
+      "price": "650",
       "descr": ""
     }
   ]

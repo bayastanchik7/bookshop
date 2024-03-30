@@ -1,0 +1,31 @@
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2.3pc;
+	flex-wrap: wrap;
+	margin-top: 2pc;
+
+	.blok{
+		width: 300px;
+		margin-top: 1pc;
+		img {
+			width: 300px;
+			height: 400px;
+		}
+		h1 {
+			font-size: 24px;
+		}
+		.bloks {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			.btns {
+				background: none;
+				border: none;
+				color: red;
+				font-size: 20px;
+			}
+		}
+	}
+}

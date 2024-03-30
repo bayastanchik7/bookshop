@@ -1,11 +1,15 @@
-import React from "react";
-import { SlBasket } from "react-icons/sl";
-import "./Header.css";
-import { MdPerson } from "react-icons/md";
-import { NavLink ,Link} from "react-router-dom";
+import React from 'react'
+import { SlBasket } from 'react-icons/sl'
+import './Header.css'
+import { MdPerson } from 'react-icons/md'
+import { NavLink, Link, useNavigate } from 'react-router-dom'
+import { useMainContext } from '../../context/ProductContext'
 
 const Header = () => {
-  return (
+	const { counter } = useMainContext()
+	const { setValue, value } = useMainContext()
+	const nav = useNavigate()
+	return (
 		<div id='header'>
 			<div className='container'>
 				<div className='header'>
@@ -17,11 +21,18 @@ const Header = () => {
 						<div className='inputs'>
 							<div className='search'>
 								<input
+									onInput={e => {
+										setValue(e.target.value)
+									}}
 									type='text'
 									className='search__input'
-									placeholder='Type your text'
+									placeholder='Type your book'
+									value={value}
 								/>
-								<button className='search__button'>
+								<button
+									onClick={() => nav('/search')}
+									className='search__button'
+								>
 									<svg
 										className='search__icon'
 										aria-hidden='true'
@@ -35,14 +46,15 @@ const Header = () => {
 							</div>
 						</div>
 						<NavLink>
-							<Link to={"/basket"}>
+							<Link to={'/basket'}>
 								<div className='span'>
+									{counter}
 									<SlBasket className='basket' />
 									корзина
 								</div>
 							</Link>
 						</NavLink>
-						<NavLink to='/admin'>
+						<NavLink to='/password'>
 							<div className='person'>
 								<MdPerson className='admin' />
 								админ
@@ -53,6 +65,6 @@ const Header = () => {
 			</div>
 		</div>
 	)
-};
+}
 
-export default Header;
+export default Header

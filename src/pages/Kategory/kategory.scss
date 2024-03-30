@@ -3,6 +3,7 @@
 	.kategory {
 		.main {
 			h4 {
+				padding: 10px 10px;
 				margin: 20px 20px;
 				font-size: 20px;
 				color: black;
@@ -10,21 +11,22 @@
 			}
 		}
 		.main2 {
+			margin-top: 30px;
 			display: flex;
 			align-items: center;
-			justify-content: space-between;
+			justify-content: space-around;
 			.mainBlock {
 				img {
 					position: relative;
 					width: 350px;
 					height: 232px;
 					object-fit: cover;
-					border-radius: 17px;
+					border-radius: 5px;
 				}
 				h3 {
 					position: absolute;
-					font-size: 20px;
-					color: white;
+					font-size: 30px;
+					color: rgb(247, 247, 250);
 					top: 1200px;
 					margin-left: 20px;
 				}
@@ -45,6 +47,10 @@
 		}
 		.tt {
 			.select {
+				border: none;
+				border-radius: 5px;
+				background-color: #010049;
+				color: aliceblue;
 				padding: 10px 20px;
 			}
 		}
@@ -53,7 +59,7 @@
 		display: grid;
 		grid-template-columns: repeat(5, 20%);
 		row-gap: 200px;
-		gap: 20px;
+		gap: 30px;
 		margin-top: 40px;
 		.cardBLock {
 			display: flex;
@@ -63,10 +69,10 @@
 		.cardBox {
 			display: flex;
 			img {
-				width: 250px;
-				height: 300px;
+				width: 300px;
+				height: 440px;
 				object-fit: cover;
-				border-radius: 10px;
+				border-radius: 0px;
 			}
 			h1 {
 				font-size: 20px;
@@ -88,12 +94,15 @@
 			}
 		}
 	}
+
 	.btnAdd {
 		padding: 10px 35px;
 		border: none;
 		color: white;
-		background-color:#010049;
+		background-color: #010049;
 		border-radius: 5px;
 		margin-left: 750px;
+		margin-top: 50px;
+		font-size: 20px;
 	}
 }

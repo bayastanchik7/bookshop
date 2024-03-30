@@ -1,0 +1,43 @@
+#footer {
+	margin-top: 20px;
+	background-color: #010049;
+	font-family: 'Courier New', Courier, monospace;
+	.footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.shops h1 {
+			color: white;
+		}
+		.way {
+			line-height: 40px;
+			font-size: 30px;
+			color: white;
+		}
+		.faq {
+			line-height: 40px;
+			font-size: 20px;
+			color: white;
+		}
+		.block {
+			line-height: 30px;
+			font-size: 15px;
+			color: white;
+			.iconssss {
+				gap: 10px;
+				line-height: 20px;
+				font-size: 25px;
+				color: white;
+				display: flex;
+			}
+		}
+		.adres {
+			color: white;
+			font-size: 20px;
+			line-height: 35px;
+			iframe {
+				border-radius: 5px;
+			}
+		}
+	}
+}

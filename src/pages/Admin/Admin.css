@@ -1,73 +1,61 @@
-.create-info {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  
+#create {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 72vh;
+	gap: 30px;
+	padding: 20px;
 }
 
-
-.create {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 160px;
+.input-wrapper input {
+	font-size: 20px;
+	padding: 30px 65px;
+	border: none;
+	border-radius: 5px;
+	background-color: #04026e;
+	color: aliceblue;
+	margin-left: -200px;
+	margin-top: 150px;
+}
+.input-wrapper input::placeholder {
+	color: rgb(54, 158, 223);
 }
 
-.input-wrapper {
-    margin-bottom: 20px;
+.prodInfo {
+	display: flex;
+	flex-direction: column;
+	margin-left: 350px;
+	margin-top: -200px;
+	gap: 10px;
 }
 
-.input-file {
-    display: none;
-}
-
-.input-file + label {
-    cursor: pointer;
-    padding: 10px;
-    border: 1px solid #cccccc;
-    border-radius: 8px;
-    background-color: #ffffff;
-    color: #333333;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-}
-
-.prodInfo input[type="text"],
+.prodInfo input,
 .prodInfo select,
 .prodInfo textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    background-color: #f0f0f0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+	font-size: 18px;
+	padding: 15px 35px;
+	border: none;
+	border-radius: 5px;
+	background-color: #04026e;
+	color: aliceblue;
 }
-
-.prodInfo select {
-    appearance: none;
-    background-repeat: no-repeat;
-    background-position: right 8px center;
-    padding-right: 30px;
+.prodInfo input::placeholder {
+	color: rgb(54, 158, 223);
 }
-
-.prodInfo textarea {
-    resize: vertical;
+.descr::placeholder {
+	color: rgb(54, 158, 223);
 }
 
 .prodInfo button {
-    padding: 10px 20px;
-    background-color: #1976d2;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+	padding: 15px 50px;
+	background-color: #04026e;
+	color: aliceblue;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
 }
 
-.prodInfo button{
-    padding: 15px 40px;
-    background-color: #0b0283;
+.prodInfo button:hover {
+	background-color: #46aceb;
 }
